@@ -1,0 +1,25 @@
+.social-share {
+	float: right;
+	padding: 1.25rem 0;
+	.social-button {
+	    border-radius: 50%;
+	    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+		display: inline-block;
+	    height: 40px;
+	    margin-right: 0.5rem;
+	    transition: 0.3s;
+	    width: 40px;
+	    &:hover {
+	    	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+	    	transform: translate(0, 5px);
+	    }
+	}
+	svg {
+		height: auto;
+		margin: 0.65rem 0 0.25rem 0.65rem;
+    	width: 20px;
+	}
+	.email {
+		vertical-align: bottom;
+	}
+}
