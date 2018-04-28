@@ -15,7 +15,6 @@ permalink: /work/
 					<img src="{{ site.baseurl }}/images/{{ editorial-project.image }}">
 					<div class="card-copy">
 						<h2>{{editorial-project.name}}</h2>
-						<p>{{editorial-project.description}}</p>
 					</div>
 				</div>
 		  	</li>
@@ -30,7 +29,6 @@ permalink: /work/
 					<img src="{{ site.baseurl }}/images/{{ editorial-graphic.image }}">
 					<div class="card-copy">
 						<h2>{{editorial-graphic.name}}</h2>
-						<p>{{editorial-graphic.description}}</p>
 					</div>
 				</div>
 		  	</li>
