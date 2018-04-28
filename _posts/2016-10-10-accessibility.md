@@ -4,7 +4,7 @@ title: Re-examining web accessibility at Industry Dive to improve the user's exp
 description: When redesigning Industry Dive’s publication sites, we reassessed our use of accessibility best practices.
 date: 2016-10-10
 categories: product
-image: /2016-10-10-jordan-accessibility/header.jpg
+image: /images/post/2016-10-10-jordan-accessibility/header.jpg
 author: Jordan Branch 
 ---
 

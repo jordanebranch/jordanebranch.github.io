@@ -1,5 +1,5 @@
 .card {
-	box-shadow: 0 20px 20px rgba(0,0,0,.08);
+	box-shadow: 0 15px 10px rgba(0,0,0,.08);
 	height: 380px;
 	margin-bottom: 2.75rem;
 	transition: 0.3s;
@@ -19,7 +19,7 @@
 		}
 	} 
 	&:hover {
-		box-shadow: 0 15px 10px rgba(0, 0, 0, 0.08);
-		transform: translate(0, 10px);
+		box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
+		transform: translate(0, -5px);
 	}
 }

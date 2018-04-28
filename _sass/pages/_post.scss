@@ -1,0 +1,37 @@
+.post {
+	.entry {
+		margin: 0 20px 3rem 20px;
+		h1 {
+			font-size: 2.5rem;
+			line-height: 1.25;
+			margin-bottom: 2rem;
+		}
+		li, p {
+			font-size: 1.125rem;
+    		line-height: 1.4;
+		}
+		p {
+			margin-bottom: 1.5rem;
+		}
+		ol, ul {
+			li {
+				margin-bottom: 1rem;
+			}
+		}
+		img {
+			margin: 1rem 0 1.5rem 0;
+		}
+	}
+	.date {
+		color: grey;
+		padding: 0 0 1rem 0;
+	}
+}
+
+@media(min-width: 40em) {
+	.post {
+		.entry {
+			margin: 0 10% 3rem 10%;
+		}
+	}
+}

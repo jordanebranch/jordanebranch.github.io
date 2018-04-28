@@ -11,8 +11,10 @@ permalink: /blog/
 		<a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
 		  	<li>
 		  		<div class="card">
-					<h1>{{ post.title }}</h1>
-					<p>{{post.description}}</p>
+		  			<div class="card-copy">
+						<h2>{{ post.title }}</h2>
+						<p>{{post.description}}</p>
+					</div>
 				</div>
 		  	</li>
 	  	</a>
