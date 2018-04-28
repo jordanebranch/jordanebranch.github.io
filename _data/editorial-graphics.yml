@@ -3,6 +3,11 @@
   image: editorial-graphics/dive-awards.jpg
   external_url: https://www.hrdive.com/news/inside-the-perfect-storm-of-problems-that-created-the-skills-gap/519574/
 
+- name: Has Trump kept his supply chain promises?
+  description: Created data visualizations with design teammember
+  image: editorial-graphics/trump.jpg
+  external_url: https://www.supplychaindive.com/news/Trump-supply-chain-report-card-promises/510409/
+
 - name: The U.S. cities with the largest overall skills gaps
   description: Created data visualizations with design teammember
   image: editorial-graphics/skills-gap.jpg
