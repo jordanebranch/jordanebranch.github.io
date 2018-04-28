@@ -1,0 +1,44 @@
+- name: Women in Utilities
+  description: Designed and built the webpage
+  image: editorial-projects/women-in-utilities.jpg
+  external_url: https://www.utilitydive.com/news/women-power-utilities-industry/519877/
+
+- name: In search of the real J. Peterman
+  description: Designed and built the webpage
+  image: editorial-projects/j-peterman.jpg
+  external_url: https://www.retaildive.com/news/in-search-of-the-real-j-peterman/521433/
+
+- name: What Chinese import policies mean for all 50 states
+  description: Designed and built the webpage
+  image: gradiant-image.png
+  external_url: https://www.wastedive.com/news/what-chinese-import-policies-mean-for-all-50-states/510751/
+
+- name: How to become the next big logistics hub
+  description: Designed and built the webpage
+  image: editorial-projects/lehigh-valley.jpg
+  external_url: https://www.supplychaindive.com/news/lehigh-valley-how-to-become-logistics-hub-4-steps/510153/
+
+- name: The Dov Charney Story
+  description: Designed and built the webpage
+  image: editorial-projects/dov-charney.jpg
+  external_url: http://www.retaildive.com/news/dov-charney-american-apparel-rise-fall-comeback/445631/
+
+- name: The transformation of the NRF — and how Matthew Shay envisions its future
+  description: Designed and built the webpage
+  image: editorial-projects/nrf.jpg
+  external_url: https://www.retaildive.com/news/the-transformation-of-the-nrf-and-how-matthew-shay-envisions-the-future/507088/
+
+- name: Salary history bans
+  description: Designed and built the webpage
+  image: gradiant-image.png
+  external_url: https://www.hrdive.com/news/salary-history-ban-states-list/516662/
+  
+- name: The shifting state of federal CIOs
+  description: Designed and built the webpage
+  image: gradiant-image.png
+  external_url: https://www.ciodive.com/news/the-shifting-state-of-federal-cios/507166/
+
+- name: A Divided Rail
+  description: Designed and implemented code for microsite to house special reporting project
+  image: editorial-projects/a-divided-rail.jpg
+  external_url: http://cnsmaryland.org/interactives/spring-2016/purple-line-update/index.html
