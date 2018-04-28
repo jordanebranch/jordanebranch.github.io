@@ -4,7 +4,6 @@
 		h1 {
 			font-size: 2rem;
 			line-height: 1.25;
-			margin-bottom: 2rem;
 		}
 		li, p {
 			font-size: 1.125rem;
@@ -32,8 +31,10 @@
 		}
 	}
 	.date {
-		color: grey;
-		padding: 0 0 1rem 0;
+		color: #b7b5b5;
+	    font-size: 0.875rem;
+	    font-style: italic;
+	    margin-bottom: 2rem;
 	}
 }
 
