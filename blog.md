@@ -14,6 +14,7 @@ permalink: /blog/
 		  			<div class="card-copy">
 						<h2>{{ post.title }}</h2>
 						<p>{{post.description}}</p>
+						<span class="date">{{post.date | date: "%B %e, %Y" }}</span>
 					</div>
 				</div>
 		  	</li>
