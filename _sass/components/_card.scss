@@ -11,6 +11,7 @@
 	.card-copy {
 		padding: 1rem;
 		h2 {
+			font-size: 1.25rem;
 			letter-spacing: 0.375px;
 			line-height: 1.4;
 			margin-top: 0.25rem;
@@ -30,6 +31,14 @@
 		height: 350px;
 		img {
 			height: 200px;
+		}
+		.card-copy {
+			h2 {
+				font-size: 1.5rem;
+				letter-spacing: 0.375px;
+				line-height: 1.4;
+				margin-top: 0.25rem;
+			}
 		}
 	}
 }
