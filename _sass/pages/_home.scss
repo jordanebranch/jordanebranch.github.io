@@ -1,16 +1,16 @@
 .home {
 	margin-top: 5.5rem;
 	img {
-		display: inline-block; 
+		display: block; 
+		margin: 0 auto;
 		width: 200px;
 	}
 	h2 {
-		display: inline-block;
-	    font-size: 4rem;
+	    font-size: 3rem;
 	    line-height: 1.1;
-	    margin: 0 0 0 3rem;
-	    vertical-align: top;
-	    width: 400px;
+	    margin: 1.5rem 0 0 0;
+	    text-align: center;
+	    width: 100%;
 	}
 	.text-gradient {
 		background: linear-gradient(to right, #d38312, #a83279);
@@ -22,5 +22,21 @@
 	    font-weight: 300;
 		margin: 3.25rem 0 6rem 0;
 	    line-height: 1.6;
+	}
+}
+@media(min-width: 42em){
+	.home {
+		img {
+			display: inline-block; 
+			margin: 0;
+		}
+		h2 {
+			display: inline-block;
+		    font-size: 4rem;
+		    margin: 0 0 0 3rem;
+		    text-align: left;
+		    vertical-align: top;
+		    width: 400px;
+		}
 	}
 }
