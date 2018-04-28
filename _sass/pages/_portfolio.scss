@@ -1,4 +1,6 @@
 .portfolio-list {
+	display: flex;
+    flex-wrap: wrap;
 	list-style-type: none;
 	padding: 0;
 	.list-title {
@@ -22,10 +24,8 @@
 		.list-title {
 		    font-size: 2rem;
 		}
-		li {
-			display: inline-block;
-			width: 48%;
-			vertical-align: top;
+		a {
+			flex: 0 50%;
 		}
 		a:nth-child(odd) li {
 			margin-right: 3%;

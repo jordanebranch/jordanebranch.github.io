@@ -4,9 +4,10 @@ title: Blog
 permalink: /blog/
 ---
 
+<h2 class="list-title">Blog</h2>
+
 <ul class="blog-list">
 
-	<h2 class="list-title">Blog</h2>
 	{% for post in site.posts %}
 		<a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
 		  	<li>

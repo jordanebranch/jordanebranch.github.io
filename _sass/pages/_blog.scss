@@ -1,13 +1,6 @@
 .blog-list {
 	list-style-type: none;
 	padding: 0;
-	.list-title {
-		font-size: 1.5rem;
-	    font-weight: 600;
-	    letter-spacing: 0.5px;
-	    margin: 2rem 0;
-	    text-transform: uppercase;
-	}
 	.card {
 		height: auto;
 		h2 {
@@ -20,14 +13,6 @@
 			color: #b7b5b5;
 			font-size: 0.75rem;
 			font-style: italic;
-		}
-	}
-}
-
-@media(min-width: 40em) {
-	.blog-list {
-		.list-title {
-		    font-size: 2rem;
 		}
 	}
 }

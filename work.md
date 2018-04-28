@@ -4,9 +4,8 @@ title: Projects
 permalink: /work/
 ---
 
+<h2 class="list-title">Editorial Stories</h2>
 <ul class="portfolio-list">
-
-	<h2 class="list-title">Editorial Stories</h2>
 	{% for editorial-project in site.data.editorial-projects %}
 		<a href="{{editorial-project.external_url}}" target="_blank">
 		  	<li>
@@ -20,8 +19,10 @@ permalink: /work/
 		  	</li>
 	  	</a>
 	{% endfor %}
+</ul>
 
-	<h2 class="list-title">Editorial Graphics</h2>
+<h2 class="list-title">Editorial Graphics</h2>
+<ul class="portfolio-list">
 	{% for editorial-graphic in site.data.editorial-graphics %}
 		<a href="{{editorial-graphic.external_url}}" target="_blank">
 		  	<li>
@@ -34,5 +35,4 @@ permalink: /work/
 		  	</li>
 	  	</a>
 	{% endfor %}
-
 </ul>

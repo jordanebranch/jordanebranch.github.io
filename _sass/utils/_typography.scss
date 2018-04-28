@@ -57,6 +57,18 @@ ol ul, ul ol, ul ul, ol ol {
   margin: 0;
 }
 
+.list-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+@media(min-width: 40em) {
+  .list-title {
+    font-size: 2rem;
+  }
+}
 
 // Specify the color of the selection
 ::-moz-selection {
