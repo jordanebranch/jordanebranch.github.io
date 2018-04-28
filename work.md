@@ -6,7 +6,7 @@ permalink: /work/
 
 <ul class="portfolio-list">
 
-	<h2>Custom Editorial Stories</h2>
+	<h2 class="list-title">Custom Editorial Stories</h2>
 	{% for editorial-project in site.data.editorial-projects %}
 		<a href="{{editorial-project.external_url}}" target="_blank">
 		  	<li>
@@ -21,7 +21,7 @@ permalink: /work/
 	  	</a>
 	{% endfor %}
 
-	<h2>Custom Editorial Graphics</h2>
+	<h2 class="list-title">Custom Editorial Graphics</h2>
 	{% for editorial-graphic in site.data.editorial-graphics %}
 		<a href="{{editorial-graphic.external_url}}" target="_blank">
 		  	<li>

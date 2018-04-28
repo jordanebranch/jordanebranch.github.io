@@ -1,10 +1,12 @@
 .portfolio-list {
 	list-style-type: none;
 	padding: 0;
-	//temporary
-	.placeholder-image {
-		background: linear-gradient(to right, #d38312, #a83279);
-		height: 200px;
+	.list-title {
+	    font-size: 1.5rem;
+	    font-weight: 600;
+	    letter-spacing: 0.5px;
+	    margin: 2rem 0;
+	    text-transform: uppercase;
 	}
 	.card {
 		&:hover {
@@ -17,6 +19,9 @@
 
 @media(min-width: 40em) {
 	.portfolio-list {
+		.list-title {
+		    font-size: 2rem;
+		}
 		li {
 			display: inline-block;
 			width: 48%;

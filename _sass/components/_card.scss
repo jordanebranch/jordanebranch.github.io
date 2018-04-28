@@ -1,11 +1,11 @@
 .card {
 	box-shadow: 0 15px 10px rgba(0,0,0,.08);
 	border: #f5f6f7 1px solid;
-	height: 350px;
+	height: auto;
 	margin-bottom: 2.75rem;
 	transition: 0.3s;
 	img {
-		height: 200px;
+		height: auto;
 		width: 100%;
 	}
 	.card-copy {
@@ -22,5 +22,14 @@
 	&:hover {
 		box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
 		transform: translate(0, -5px);
+	}
+}
+
+@media(min-width: 40em) {
+	.card {
+		height: 350px;
+		img {
+			height: 200px;
+		}
 	}
 }

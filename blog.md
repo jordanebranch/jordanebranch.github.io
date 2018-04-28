@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: page
 title: Blog
 permalink: /blog/
 ---
 
 <ul class="blog-list">
 
-	<h2>Blog</h2>
+	<h2 class="list-title">Blog</h2>
 	{% for post in site.posts %}
 		<a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
 		  	<li>

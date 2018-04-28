@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,800,900" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />-->
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
@@ -27,9 +28,22 @@
         </div>
 
         <nav>
-          <a href="{{ site.baseurl }}/">About</a>
-          <a href="{{ site.baseurl }}/blog">Blog</a>
-          <a href="{{ site.baseurl }}/work">Portfolio</a>
+          <div class="menu">
+            <a href="{{ site.baseurl }}/">About</a>
+            <a href="{{ site.baseurl }}/blog">Blog</a>
+            <a href="{{ site.baseurl }}/work">Portfolio</a>
+          </div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="mobile-menu">
+            <a href="{{ site.baseurl }}/">About</a>
+            <a href="{{ site.baseurl }}/blog">Blog</a>
+            <a href="{{ site.baseurl }}/work">Portfolio</a>
+          </div>
         </nav>
       </header>
     </div>
@@ -46,4 +60,12 @@
 
     {% include analytics.html %}
   </body>
+  <script>
+  $(document).ready(function(){
+  $('.hamburger').click(function(){
+    $(this).toggleClass('open');
+    $('.mobile-menu').toggleClass('mm-show');
+  });
+});
+  </script>
 </html>
