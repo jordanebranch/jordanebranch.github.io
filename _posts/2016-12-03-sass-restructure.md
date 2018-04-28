@@ -15,9 +15,9 @@ There are many resources out there for Sass architecture. [Smacss](https://smacs
 
 The common theme that appeared in all of their recommendations: Break your sass down into reusable parts. The goal is to eliminate page-specific styling and reduce code bloat.
 
-Drawing from the best practices of several leading tech companies, we created a directory structure that fits the needs of our business and the way we code at Industry Dive.
+Drawing from the best practices of several leading tech companies, I worked with the team to create a directory structure that fit the needs of our business and the way we code at Industry Dive.
 
-Here is an overview of what we came up with:
+Here is an overview of what the team came up with:
 - Base (Sass i.e. variables and extendables)
 - Components (reusable parts of the site i.e. forms, buttons, accordions)
 - Layout (sections of the site that make a wireframe of its overall structure i.e. sidebar, footer, menu)
