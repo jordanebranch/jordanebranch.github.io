@@ -10,7 +10,7 @@
 
 - name: What Chinese import policies mean for all 50 states
   description: Designed and built the webpage
-  image: gradiant-image.png
+  image: editorial-projects/waste-50-states.jpg
   external_url: https://www.wastedive.com/news/what-chinese-import-policies-mean-for-all-50-states/510751/
 
 - name: How to become the next big logistics hub
@@ -30,12 +30,12 @@
 
 - name: Salary history bans
   description: Designed and built the webpage
-  image: gradiant-image.png
+  image: editorial-projects/hr-50-states.jpg
   external_url: https://www.hrdive.com/news/salary-history-ban-states-list/516662/
-  
+
 - name: The shifting state of federal CIOs
   description: Designed and built the webpage
-  image: gradiant-image.png
+  image: editorial-projects/cio-fed.jpg
   external_url: https://www.ciodive.com/news/the-shifting-state-of-federal-cios/507166/
 
 - name: A Divided Rail

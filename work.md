@@ -27,8 +27,7 @@ permalink: /work/
 		<a href="{{editorial-graphic.external_url}}" target="_blank">
 		  	<li>
 		  		<div class="card">
-		  			<div class="placeholder-image"></div>
-					<!--<img src="{{ site.baseurl }}/images/{{ project.image }}">-->
+					<img src="{{ site.baseurl }}/images/{{ editorial-graphic.image }}">
 					<div class="card-copy">
 						<h2>{{editorial-graphic.name}}</h2>
 						<p>{{editorial-graphic.description}}</p>

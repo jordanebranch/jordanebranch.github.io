@@ -1,29 +1,24 @@
 - name: Dive Awards
   description: Created data visualizations with design teammember
-  image: gradiant-image.png
-  external_url: 
+  image: editorial-graphics/dive-awards.jpg
+  external_url: https://www.hrdive.com/news/inside-the-perfect-storm-of-problems-that-created-the-skills-gap/519574/
 
 - name: The U.S. cities with the largest overall skills gaps
   description: Created data visualizations with design teammember
-  image: gradiant-image.png
+  image: editorial-graphics/skills-gap.jpg
   external_url: https://www.hrdive.com/news/inside-the-perfect-storm-of-problems-that-created-the-skills-gap/519574/
 
 - name: 50 States of Construction
   description: Created and implemented map for Construction Dive's story series
-  image: gradiant-image.png
+  image: editorial-graphics/50-states-construction.jpg
   external_url: http://www.constructiondive.com/topic/50-states-construction/
 
 - name: The State of the Shipping Industry
   description: Created data visualizations with design teammember
-  image: gradiant-image.png
+  image: editorial-graphics/shipping-industry.jpg
   external_url: http://www.supplychaindive.com/news/ocean-shipping-industry-consolidation-charts-2017/447936/
-
-- name: Trial results of CGRP inhibitors in episodic migraine
-  description: Created and implemented timeline for Supply Chain Dive
-  image: gradiant-image.png
-  external_url: https://www.biopharmadive.com/news/cgrp-inhibitors-migraine-drugs-alder-amgen-lilly-teva/446199/
 
 - name: The Hanjin Meltdown
   description: Created and implemented timeline for Supply Chain Dive
-  image: gradiant-image.png
+  image: editorial-graphics/hanjin.jpg
   external_url: http://www.supplychaindive.com/news/hanjin-timeline-bankruptcy-shipping-effects/430694/ 
