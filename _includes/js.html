@@ -1,0 +1,12 @@
+<script>
+  	$(document).ready(function(){
+  		$('.hamburger').click(function(){
+    		$(this).toggleClass('open');
+    		$('.mobile-menu').toggleClass('mm-show');
+  		});
+	});
+  	$(window).on('resize',function(){
+    	$('.mobile-menu').removeClass('mm-show');
+    	$('.hamburger').removeClass('open');
+	});
+</script>
