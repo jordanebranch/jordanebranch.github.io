@@ -50,7 +50,7 @@
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
+      {{ content }}http://localhost:4000/blog
     </div>
 
       <div class="container">
@@ -67,6 +67,10 @@
     $(this).toggleClass('open');
     $('.mobile-menu').toggleClass('mm-show');
   });
+});
+  $(window).on('resize',function(){
+    $('.mobile-menu').removeClass('mm-show');
+    $('.hamburger').removeClass('open');
 });
   </script>
 </html>
