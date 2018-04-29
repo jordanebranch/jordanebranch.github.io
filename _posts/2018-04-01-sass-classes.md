@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: When and how I use classes in SASS to maintain a clean front-end codebase
-description: After our new publication sites were live, the team re-evaluated its Sass architecture and decided to break it up into more maintainable parts.
+description: The overarching strategy is to make our code as global in scope as possible and where it cannot be, as reusable and contained as possible.
 date: 2018-04-01
 categories: product
 image: images/post/2018-04-01-sass-classes/class-header-image.jpg
