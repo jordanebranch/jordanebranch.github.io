@@ -9,7 +9,7 @@ permalink: /blog/
 <ul class="blog-list">
 
 	{% for post in site.posts %}
-		<a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
+		<a href="{{ site.baseurl }}{{ post.url }}">
 		  	<li>
 		  		<div class="card">
 		  			<div class="card-copy">
