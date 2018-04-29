@@ -24,7 +24,7 @@ Within that component, our front-end designers use HTML to structure the compone
     img {
         width: 100%;
     }
-    p {
+    h2 {
         margin: 0; 
         padding: 1.25rem 0; 
         text-align: center;
@@ -37,7 +37,7 @@ Within that component, our front-end designers use HTML to structure the compone
 }
 {% endhighlight %}
 
-When we want our SASS to be specific to one component, we can rely on SASS to compile down into element-specific css. That is to say when writing class names for elements inside of components, we don’t reiterate the component name. 
+When we want our class to be specific to one component, we can rely on SASS to compile down into element-specific css. That is to say when writing class names for elements inside of components, we don’t reiterate the component name. 
 
 <span style="color: green; font-weight: 900; margin: 1.5rem 0 -0.75rem 0; display: block;">GOOD</span>
 {% highlight css %}
@@ -85,7 +85,7 @@ When we want our SASS to be specific to one component, we can rely on SASS to co
 }
 {% endhighlight %}
 
-This is the bread and butter of how we keep front-end designers from opening up partials at christmas time and finding socks instead of that brand new bike. However, there is always room for improvement. 
+This is the bread and butter of how we keep front-end designers from opening up partials at christmas time and finding socks instead of that brand new bike. However, there is always room for improvement and I can't say this is the best method for every site. This is just how we made sense of our mess. Some sites are much more complex and thus require a more complex strategy.
 
-The next step would be to get our back-end developers on board with understanding our class names by creating a product language. For example, is an editorial story an article or a post? To be continued...
+The next step for us would be to get our back-end developers on board with understanding our class names by creating a product language. For example, is an editorial story an article or a post? To be continued...
 
