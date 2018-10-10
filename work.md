@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /work/
+permalink: /editorial-projects/
 ---
 
 <h2 class="list-title">Editorial Stories</h2>
@@ -21,7 +21,7 @@ permalink: /work/
 	{% endfor %}
 </ul>
 
-<h2 class="list-title">Editorial Graphics</h2>
+<!--<h2 class="list-title">Editorial Graphics</h2>
 <ul class="portfolio-list">
 	{% for editorial-graphic in site.data.editorial-graphics %}
 		<a href="{{editorial-graphic.external_url}}" target="_blank">
@@ -35,4 +35,4 @@ permalink: /work/
 		  	</li>
 	  	</a>
 	{% endfor %}
-</ul>
+</ul>-->
