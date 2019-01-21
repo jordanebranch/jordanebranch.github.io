@@ -20,7 +20,7 @@
 	p {
 		font-size: 1.25rem;
 	    font-weight: 300;
-		margin: 3.25rem 0 4rem 0;
+		margin: 2rem 0 4rem 0;
 	    line-height: 1.6;
 	}
 }
@@ -32,10 +32,11 @@
 		}
 		h2 {
 			display: inline-block;
-		    font-size: 4rem;
+		    font-size: 5rem;
+		    font-weight: 900;
 		    margin: 0 0 0 3rem;
 		    text-align: left;
-		    vertical-align: top;
+		    vertical-align: baseline;
 		    width: 400px;
 		}
 	}
