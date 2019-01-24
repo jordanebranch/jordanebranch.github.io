@@ -12,6 +12,7 @@ permalink: /blog/
 		<a href="{{ site.baseurl }}{{ post.url }}">
 		  	<li>
 		  		<div class="card">
+		  			<img src="{{ site.baseurl }}/{{ post.image }}">
 		  			<div class="card-copy">
 						<h2>{{ post.title }}</h2>
 						<p>{{post.description}}</p>

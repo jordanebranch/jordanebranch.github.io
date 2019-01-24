@@ -2,7 +2,9 @@
 	list-style-type: none;
 	padding: 0;
 	.card {
-		height: auto;
+		img {
+			height: auto;
+		}
 		h2 {
 			margin: 0.25rem 0;
 		}
