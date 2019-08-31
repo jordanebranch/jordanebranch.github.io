@@ -9,7 +9,7 @@ pagination:
 <h2 class="list-title">Blog</h2>
 
 <ul class="blog-list">
-	<!--{% for post in site.posts %}
+	{% for post in site.posts %}
 		<a href="{{ site.baseurl }}{{ post.url }}">
 		  	<li>
 		  		<div class="card">
@@ -22,8 +22,8 @@ pagination:
 				</div>
 		  	</li>
 	  	</a>
-  	{% endfor %}-->
-	{% for post in paginator.posts %}
+  	{% endfor %}
+	<!--{% for post in paginator.posts %}
 		<a href="{{ site.baseurl }}{{ post.url }}">
 		  	<li>
 		  		<div class="card">
@@ -36,9 +36,9 @@ pagination:
 				</div>
 		  	</li>
 	  	</a>
-	{% endfor %}
+	{% endfor %}-->
 	<!-- Pagination links -->
-	<div class="pagination">
+	<!--<div class="pagination">
 	  	{% if paginator.previous_page %}
 	    	<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
 	  	{% else %}
@@ -48,5 +48,5 @@ pagination:
 		{% else %}
 	    	<span class="next off">Next</span>
 	  	{% endif %}
-	</div>
+	</div>-->
 </ul>
