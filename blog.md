@@ -2,8 +2,6 @@
 layout: page
 title: Blog
 permalink: /blog/
-pagination:
-  enabled: true
 ---
 
 <h2 class="list-title">Blog</h2>
