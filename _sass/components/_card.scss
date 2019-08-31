@@ -25,6 +25,9 @@
 		box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
 		transform: translate(0, -5px);
 	}
+	&:last-of-type {
+		margin-bottom: 6rem;
+	}
 }
 
 @media(min-width: 40em) {
