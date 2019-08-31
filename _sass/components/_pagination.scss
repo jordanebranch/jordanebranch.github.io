@@ -1,0 +1,24 @@
+.pagination {
+	margin: 4rem auto;
+    width: 300px;
+    .next, .previous {
+	    background-color: #e9ecef;
+	    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+	    display: inline-block;
+	    font-size: 0.875rem;
+	    font-weight: 700;
+	    letter-spacing: 1.25px;
+	    padding: 0.75rem;
+	    text-align: center;
+	    text-transform: uppercase;
+	    width: 140px;
+    }
+    .next {
+    	margin-left: 15px;
+    }
+    .off {
+		background-color: #fff;
+			color: #fff;
+			box-shadow: none;
+	}
+}

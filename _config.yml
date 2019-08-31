@@ -55,6 +55,15 @@ plug-ins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
+gems: [jekyll-paginate-v2]
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
@@ -62,3 +71,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
