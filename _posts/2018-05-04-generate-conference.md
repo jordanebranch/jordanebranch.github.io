@@ -64,4 +64,4 @@ From there, I'd start by updating the code. The language used to refer to this c
 
 Overall I think project management would be vastly improved by defining this. Having one term for this content would certainly clean up communication and code.
 
-<span style="font-style: italic;">This post was a joint post between myself and two other colleagues.</span>
+<span style="font-style: italic;">Originally published on [industrydive.design](https://industrydive.design/). Written in collaboration with [Natalie Forman](http://natalieforman.com/) and [Nan Copeland](https://www.nancopeland.com/).</span>
