@@ -1,7 +1,7 @@
 ---
 layout: post 
-title: Restructuring our Sass into more maintainable parts
-description: After our new publication sites were live, the team re-evaluated its Sass architecture and decided to break it up into more maintainable parts.
+title: Restructuring our Sass
+description: Breaking down our Sass architecture into more maintainable parts
 date: 2016-12-03
 categories: product
 image: images/post/2016-12-03-sass-restructure/sass-header.jpg

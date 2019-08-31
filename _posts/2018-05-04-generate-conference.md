@@ -1,7 +1,7 @@
 ---
 layout: post 
-title: Attending the Generate Conference
-description: Our front-end designers traveled to NYC to attend the Generate Conference. Three concepts stood out to them and provided insight into our team's operations.
+title: Lessons from the Generate Conference
+description: Three concepts stood out to our front-end designers
 date: 2018-05-04
 categories: product
 image: images/post/2018-05-04-generate-conference/header-image.png

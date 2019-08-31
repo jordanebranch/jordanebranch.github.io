@@ -1,7 +1,7 @@
 ---
 layout: post 
-title: Reassessing the user experience of the ad specs page
-description: During a user experience audit, we found our ad specs page was being used with clients differently than we had initially intended.
+title: Improving the UX of our advertising specifications page
+description: How a UX audit led to unexpected findings
 date: 2018-09-21
 categories: product
 image: images/post/2018-09-21-reassessing-ad-specs/ad-specs-header-image.jpg

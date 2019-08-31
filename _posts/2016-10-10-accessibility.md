@@ -1,7 +1,7 @@
 ---
 layout: post 
-title: Re-examining web accessibility at Industry Dive to improve the user's experience
-description: When redesigning Industry Dive’s publication sites, I reassessed our use of accessibility best practices.
+title: Re-examining web accessibility
+description: Auditing our use of accessibility best practices
 date: 2016-10-10
 categories: product
 image: images/post/2016-10-10-jordan-accessibility/header.jpg
