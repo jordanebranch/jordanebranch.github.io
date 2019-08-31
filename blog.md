@@ -2,12 +2,14 @@
 layout: page
 title: Blog
 permalink: /blog/
+pagination:
+  enabled: true
 ---
 
 <h2 class="list-title">Blog</h2>
 
 <ul class="blog-list">
-	{% for post in paginator.posts %}
+	{% for post in site.posts %}
 		<a href="{{ site.baseurl }}{{ post.url }}">
 		  	<li>
 		  		<div class="card">
