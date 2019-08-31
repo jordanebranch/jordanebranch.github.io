@@ -21,8 +21,15 @@
 	figure {
 		margin: 0 0 1.75rem 0;
 	}
+	img {
+		border: 1px solid #e9ecef;
+	}
 	figure.image {
 		margin: 0 0 1.75rem 0;
+	}
+	.header-image {
+		grid-column: 2/7;
+		margin: 3rem auto 1rem auto;
 	}
 	.caption {
 		color: grey;
@@ -45,7 +52,7 @@
 	    margin-bottom: 2rem;
 	}
 	.grid-two-columns {
-		margin: 1rem 0 0 0;
+		margin: 1rem 0;
 		img:first-child {
 			margin-bottom: 1rem;
 		}
@@ -71,19 +78,22 @@
 @media(min-width: 40em) {
 	.post {
 		display: grid;
-	    grid-template-columns: 1fr 1fr 680px 1fr 1fr;
+	    grid-template-columns: 1fr 1fr 1fr 680px 1fr 1fr 1fr;
 	    margin: 0 0 4rem 0;
 	    > * {
-	    	grid-column: 3;
+	    	grid-column: 4;
 	    }
 	    img {
-	    	grid-column: 1/6;
-		    margin: 3rem auto 1rem auto;
+	    	grid-column: 4;
+		    margin: 1rem auto;
 		    width: 100%;
 		    max-width: 1000px;
 	    }
 	    > figure.image {
-	    	grid-column: 2/5;
+	    	grid-column: 4;
+	    }
+	    .full-width {
+	    	grid-column: 3/6;
 	    }
 		h1 {
 			font-size: 2.75rem;
